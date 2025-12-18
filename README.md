@@ -12,6 +12,8 @@ This project is an MCP (Model Context Protocol) server implemented in Go that pr
 - **JWT Authentication**: Automatic authentication with free5GC webconsole
 - **VS Code Integration**: Works seamlessly with GitHub Copilot in VS Code
 
+## Group 6: [Automation of free5GC ci-test](https://github.com/CNDI-final/web_test)
+
 ## Group 7: [5G-DPOP: 5G UPF Data Plane Observability Platform](https://github.com/solar224/5G-DPOP)
 
 A 5G UPF observability platform powered by eBPF. Features real-time traffic monitoring, granular packet drop detection, and PFCP session correlation for free5GC without source code modification.
