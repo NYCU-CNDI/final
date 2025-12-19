@@ -1,5 +1,9 @@
 # final
 
+## Group 4: [free5GC-trace](https://github.com/ChenYen-Yen/free5gc-trace)
+
+This project implements end-to-end distributed tracing for the UE Registration procedure in a free5GC-based 5G Core, using OpenTelemetry and Grafana Tempo. It correlates SBI calls across six key NFs (AMF, AUSF, UDM, UDR, NSSF, NRF) into a single trace so that each UE registration can be visualized and debugged as one coherent flow.
+
 ## Group 5: [free5GC-MCP (Model Context Protocol) Server](https://github.com/q1317540161/free5gc-MCP)
 
 This project is an MCP (Model Context Protocol) server implemented in Go that provides AI assistants (like GitHub Copilot) with tools to manage free5GC 5G core network subscribers and configurations.
