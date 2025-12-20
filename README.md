@@ -28,4 +28,6 @@ This repository demonstrates how DOCA can accelerate a UPF in a complete test en
 
 A 5G UPF observability platform powered by eBPF. Features real-time traffic monitoring, granular packet drop detection, and PFCP session correlation for free5GC without source code modification.
 
+## Group 8: [RESTful API Fuzzing for Free5GC](https://github.com/freddy645645/5GC-Fuzz)
+
 ## Group 9: [Fast PDU Session Cleanup](https://github.com/c9274326/CNDI_Group9.git)
