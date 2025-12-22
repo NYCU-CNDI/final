@@ -1,5 +1,11 @@
 # final
 
+## Group 1: [Efficient and Hardware-Independent Deep Packet Inspection for Free5GC](https://github.com/c1ydehhx/dpi5g)
+
+Since Ian Chen mentioned that Free5GC UPF doesn't have Deep Packet Inspection (DPI) feature in CNDI course, it caught my interest to implement a DPI feature. After doing some research, most DPI feature is handle with hardware support such as P4 programmable switch. We just happend to have a P4 switch in our Lab, so it's a perfect timing to start this research project. Construct hardware-support DPI solution is easy and straight forward. It's easy for me to construct this since I have some experience on P4 Switch. To make it more challenge, We trying to find a Hardware-Independent solution that can achieve efficient as same as hardware-support solution (Like, P4 Switch). It's interesting that discovery a hardware-independent solution and it increase the possibility that we can integrate into Free5GC UPF.
+
+For the information about our PoC, please refer [this blog](https://www.c1ydeh.net/#/blog/2025f-free5gc-dpi).
+
 ## Group 3: [free5GC-MCP (Model Context Protocol) Server](https://github.com/q1317540161/free5gc-MCP)
 
 This project is an MCP (Model Context Protocol) server implemented in Go that provides AI assistants (like GitHub Copilot) with tools to manage free5GC 5G core network subscribers and configurations.
