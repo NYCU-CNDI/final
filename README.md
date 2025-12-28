@@ -6,6 +6,10 @@ Since Ian Chen mentioned that Free5GC UPF doesn't have Deep Packet Inspection (D
 
 For the information about our PoC, please refer [this blog](https://www.c1ydeh.net/#/blog/2025f-free5gc-dpi).
 
+## Group 2: [Parallelizing the NGAP Message Processing Architecture in free5GC AMF](https://github.com/qawl987/amf)
+
+This project implements a high-performance parallel NGAP message processing architecture in the free5GC AMF, replacing the sequential SCTP handling model to resolve Head-of-Line blocking. It utilizes a lock-free dispatching mechanism with a UE-ID based hashing scheduler to distribute signaling loads across worker pools. This design guarantees per-UE message ordering while maximizing multi-core utilization, resulting in a 3.66x speedup in registration time and significantly higher success rates under simulated signaling storms.
+
 ## Group 3: [free5GC-MCP (Model Context Protocol) Server](https://github.com/q1317540161/free5gc-MCP)
 
 This project is an MCP (Model Context Protocol) server implemented in Go that provides AI assistants (like GitHub Copilot) with tools to manage free5GC 5G core network subscribers and configurations.
